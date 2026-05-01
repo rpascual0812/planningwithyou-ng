@@ -1,0 +1,19 @@
+<div>
+    <!--begin::App Wrapper-->
+    <div class="app-wrapper">
+        <!--begin::Header-->
+        <app-navbar class="app-header navbar-expand bg-body" (toggleMenuSidebar)="toggleMenuSidebar()"></app-navbar>
+        <!--end::Header-->
+        <!--begin::Sidebar-->
+        <app-sidebar class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark"></app-sidebar>
+        <!--end::Sidebar-->
+        <!--begin::App Main-->
+        <main class="app-main">
+            <!--begin::App Content Header-->
+            <router-outlet></router-outlet>
+            <!--end::App Content-->
+        </main>
+        <!--end::App Main-->
+    </div>
+    <!--end::App Wrapper-->
+</div>

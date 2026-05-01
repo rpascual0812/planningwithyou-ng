@@ -1,0 +1,18 @@
+.fa-bars {
+    cursor: pointer;
+}
+
+.nav-item {
+    .nav-link {
+        cursor: pointer;
+    }
+}
+
+.badge {
+    position: absolute;
+    top: 9px;
+    right: -3px;
+    padding: 2px 4px;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
