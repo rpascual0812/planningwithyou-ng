@@ -38,7 +38,7 @@ import { ErrorLayoutComponent } from './layouts/error-layout/error-layout.compon
         AppRoutingModule,
         NgbModule,
         FontAwesomeModule,
-        ComponentsModule
+        ComponentsModule,
     ],
     providers: [
         {
